@@ -1,0 +1,790 @@
+html {
+    background-color: #d9f9f9;
+    width: 1440px;
+    font-family: "dreaming-outloud-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    
+
+}
+.paw{
+    background-image: url(../images/paw.png);
+    position: absolute;
+    background-size: 100%;
+    width: 177px;
+    height:196px;
+    left:1320px;
+    rotate: -40deg;
+   top:85px;
+}
+
+.paw-lightblue{
+    background-image: url(../images/paw-lightblue.png);
+    position: absolute;
+    background-size: cover;
+    width: 155px;
+    height: 150px;
+    left:40px;
+}
+
+
+.browndog{
+background-image: url(../images/browndog.png);
+position: absolute;
+background-size: cover;
+width:250px;
+height:250px;
+top:85px;
+left: 1100px;
+
+
+}
+
+
+.puppybrown{
+    background-image: url(../images/puppybrown.png);
+    position: absolute;
+    background-size: cover;
+    width:250px;
+    height:250px;
+    top:70px;
+    left: 450px;
+}    
+.puppy{
+background-image: url(../images/puppy.png);
+position: absolute;
+background-size: cover;
+width:250px;
+height:250px;
+top:90px;
+left: 800px;
+
+
+
+
+}
+.lookingdog{
+
+    background-image: url(../images/lookingdog.png);
+    position: absolute;
+    background-size: cover;
+    width: 200px;
+    height: 400px;
+    left:1325px;
+    top:400px;
+
+}
+
+.littledog{
+background-image: url(../images/littledog.png);
+position: absolute;
+    background-size: cover;
+    width: 400px;
+    height:400px;
+    top:-120px;
+    left:200px;
+
+
+}
+
+.sidedog{
+    background-image: url(../images/sidedog.png);
+    position: absolute;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    
+    width:250px;
+    height:400px;
+    top:450px;
+    left: 0px;
+    
+}
+
+.before-after-terrier{
+
+
+    background-image: url(../images/before-after-terrier.png);
+    position: absolute;
+    background-size: cover;
+    width: 800px;
+    height: 300px;
+    top:2050px;
+    left:100px;
+    border-radius: 20px;
+    
+}
+
+.pug-before-after{
+
+    background-image: url(../images/pug-before-after.png);
+    position: absolute;
+    background-size: cover;
+    width: 800px;
+    height: 400px;
+    top:1600px;
+    left:500px;
+    border-radius: 20px;
+
+}
+
+.weinerdog-before-after{
+background-image: url(../images/weinerdog-bfore-after.png);
+position: absolute;
+background-size: cover;
+width: 850px;
+height:350px;
+left:500px;
+top:2400px;
+border-radius: 20px;
+
+
+
+
+}
+
+/* .paw-lightgreen{
+background-image:url(../images/paw-lightgreen.png);
+position: absolute;
+background-size:cover;
+width: 155px;
+height: 155px;
+top:200px;
+rotate: 40deg;} */
+
+
+
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    width:1505px;
+    height: 50px;
+    background-color: lightblue;
+    box-sizing: content-box;
+ 
+    align-content: center;
+    position: relative;
+    box-shadow: 1px 1px 1px 1px rgb(97, 132, 237);
+}
+
+
+.introduction{
+  font-size: 22px;
+  line-height: 50px;
+  top:250px;
+  padding:25px;
+  text-indent: 100px;
+    align-items: center ;
+    width:1200px;
+    height: 250px;
+    background-color: rgb(153, 218, 153);
+    box-sizing: content-box; 
+position:absolute;
+ left: 130px;
+  box-shadow: 5px 5px rgb(40, 81, 44);
+
+}
+
+@keyframes bluepaw-1_fade {
+	0% { opacity: 0; }
+	50% { opacity: 1;  }
+    100% {opacity: 0;}
+	}	
+	.bluepaw-1 {
+	opacity: 0;
+	animation: bluepaw-1_fade 12s infinite;
+	animation-fill-mode: forwards;
+	animation-delay: 0s;
+
+    background-image: url(../images/bluepaw-1.png);
+    position: relative;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 160px;
+    left:-45px;
+    top:650px;
+    rotate: 10deg;
+}
+
+@keyframes lightbluepaw-2_fade {
+	0% { opacity: 0; }
+	50% { opacity: 1;  }
+    100% {opacity: 0;}
+	}	
+	.lightbluepaw-2 {
+	opacity: 0;
+	animation: lightbluepaw-2_fade 12s infinite;
+	animation-fill-mode: forwards;
+	animation-delay: .75s;
+    background-image: url(../images/lightbluepaw-2.png);
+    position: relative;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    left: 120px;
+    top:500px;
+    rotate: -20deg;
+}
+
+@keyframes lightgreenpaw-3_fade {
+	0% { opacity: 0; }
+	50% { opacity: 1;  }
+    100% {opacity: 0;}
+	}	
+	.lightgreenpaw-3 {
+	opacity: 0;
+	animation: lightgreenpaw-3_fade 12s infinite;
+	animation-fill-mode: forwards;
+	animation-delay: 1.5s;
+
+    background-image: url(../images/lightgreenpaw-3.png);
+    position: relative;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 170px;
+    left: 200px;
+    top:200px;
+    rotate: -40deg;
+   
+
+}
+
+
+@keyframes greenpaw-4_fade {
+	0% { opacity: 0; }
+	50% { opacity: 1;  }
+    100% {opacity: 0;}
+	}	
+	.greenpaw-4 {
+	opacity: 0;
+	animation: greenpaw-4_fade 12s infinite;
+	animation-fill-mode: forwards;
+	animation-delay: 2.25s;
+    background-image: url(../images/greenpaw-4.png);
+    position: relative;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 160px;
+    left: 325px;
+    top:85px;
+    rotate: -60deg;
+}
+
+
+@keyframes bluepaw-5_fade {
+	0% { opacity: 0; }
+	50% { opacity: 1;  }
+    100% {opacity: 0;}
+	}	
+	.bluepaw-5 {
+	opacity: 0;
+	animation: bluepaw-5_fade 12s infinite;
+	animation-fill-mode: forwards;
+	animation-delay: 3s;
+    background-image: url(../images/bluepaw-5.png);
+    position: relative;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 160px;
+    left:400px;
+    top:-110px;
+    rotate: 30deg;
+    
+}
+
+
+@keyframes lightbluepaw-6_fade {
+	0% { opacity: 0; }
+	50% { opacity: 1;  }
+    100% {opacity: 0;}
+	}	
+	.lightbluepaw-6 {
+	opacity: 0;
+	animation: lightbluepaw-6_fade 12s infinite;
+	animation-fill-mode: forwards;
+	animation-delay: 3.75s;
+background-image: url(../images/lightbluepaw-6.png);
+position: relative;
+background-size: 50%;
+background-repeat: no-repeat;
+width: 150px;
+height: 150px;
+top:-180px;
+left:540px;
+rotate: 10deg;
+
+
+}
+
+
+@keyframes lightgreenpaw-7_fade {
+	0% { opacity: 0; }
+	50% { opacity: 1;  }
+    100% {opacity: 0;}
+	}	
+	.lightgreenpaw-7 {
+	opacity: 0;
+	animation: lightgreenpaw-7_fade 12s infinite;
+	animation-fill-mode: forwards;
+	animation-delay: 4.5s;
+    background-image: url(../images/lightgreenpaw-7.png);
+position: relative;
+background-size: 50%;
+background-repeat: no-repeat;
+width: 170px;
+height: 170px;
+top:-430px;
+left:670px;
+rotate: 0deg;
+}
+
+
+@keyframes greenpaw-8_fade {
+	0% { opacity: 0; }
+	50% { opacity: 1;  }
+    100% {opacity: 0;}
+	}	
+	.greenpaw-8 {
+	opacity: 0;
+	animation: greenpaw-8_fade 12s infinite;
+	animation-fill-mode: forwards;
+	animation-delay: 5.25s;
+    background-image: url(../images/greenpaw-8.png);
+    position: relative;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 160px;
+    top:-500px;
+    left:780px;
+    rotate: -15deg;
+
+}
+
+
+@keyframes bluepaw-9_fade {
+	0% { opacity: 0; }
+	50% { opacity: 1;  }
+    100% {opacity: 0;}
+	}	
+	.bluepaw-9 {
+	opacity: 0;
+	animation: bluepaw-9_fade 12s infinite;
+	animation-fill-mode: forwards;
+	animation-delay: 6s;
+    background-image: url(../images/bluepaw-9.png);
+    position: relative;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 160px;
+    top:-690px;
+    left:860px;
+    rotate: 70deg;
+
+
+}
+
+
+@keyframes lightbluepaw-10_fade {
+	0% { opacity: 0; }
+	50% { opacity: 1;  }
+    100% {opacity: 0;}
+	}	
+	.lightbluepaw-10 {
+	opacity: 0;
+	animation: lightbluepaw-10_fade 12s infinite;
+	animation-fill-mode: forwards;
+	animation-delay: 6.75s;
+    background-image: url(../images/lightbluepaw-10.png);
+    position: relative;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 160px;
+    top:-710px;
+    left:960px;
+    rotate: 45deg;
+
+
+
+}
+
+@keyframes lightgreenpaw-11_fade {
+	0% { opacity: 0; }
+	50% { opacity: 1;  }
+    100% {opacity: 0;}
+	}	
+	.lightgreenpaw-11 {
+	opacity: 0;
+	animation: lightgreenpaw-11_fade 12s infinite;
+	animation-fill-mode: forwards;
+	animation-delay: 7.5s;
+    background-image: url(../images/lightgreenpaw-11.png);
+    position: relative;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 170px;
+    top:-880px;
+    left:1135px;
+    rotate: 25deg;
+}
+
+@keyframes greenpaw-12_fade {
+	0% { opacity: 0; }
+	50% { opacity: 1;  }
+    100% {opacity: 0;}
+	}	
+	.greenpaw-12 {
+	opacity: 0;
+	animation: greenpaw-12_fade 12s infinite;
+	animation-fill-mode: forwards;
+	animation-delay: 8.25s;
+
+    background-image: url(../images/greenpaw-12.png);
+    position: relative;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 160px;
+    top:-925px;
+    left:1200px;
+    rotate: 5deg;
+}
+
+@keyframes bluepaw-13_fade {
+	0% { opacity: 0; }
+	50% { opacity: 1;  }
+    100% {opacity: 0;}
+	}	
+	.bluepaw-13 {
+	opacity: 0;
+	animation: bluepaw-13_fade 12s infinite;
+	animation-fill-mode: forwards;
+	animation-delay: 9s;
+    background-image: url(../images/bluepaw-13.png);
+    position: relative;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 160px;
+    top:-1100px;
+    left:1300px;
+    rotate: 90deg;
+}
+
+@keyframes lightbluepaw-14_fade {
+	0% { opacity: 0; }
+	50% { opacity: 1;  }
+    100% {opacity: 0;}
+	}	
+	.lightbluepaw-14 {
+	opacity: 0;
+	animation: lightbluepaw-14_fade 12s infinite;
+	animation-fill-mode: forwards;
+	animation-delay: 9.75s;
+    background-image: url(../images/lightbluepaw-14.png);
+    position: relative;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 160px;
+    top:-1100px;
+    left:1380px;
+    rotate: 50deg;
+}
+
+.photo-label1{
+    position: absolute;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
+
+    width:500px;
+    height: 50px;
+ box-sizing: content-box; 
+ background-color: lightskyblue;
+ top:2350px;
+ left: 250px;
+ 
+}
+
+.photo-label2{
+    position: absolute;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
+
+    width:550px;
+    height: 50px;
+ box-sizing: content-box; 
+ background-color: lightskyblue;
+ top:2750px;
+ left: 650px;
+ 
+}
+
+
+.tab-styles{
+    position:absolute;
+    left:135px;
+    top:1100px;
+    height: 350px;
+    width:1200px;
+}
+
+.info{
+font-size: 50px;
+position: absolute;
+top:1020px;
+left:290px;
+background-color: lightblue;
+box-sizing: content-box;
+box-shadow: 2px 2px 2px 2px rgb(97, 132, 237);
+    
+}
+
+.q-1{
+    background-color: rgb(154, 215, 142);
+    box-sizing:content-box;
+ font-size: 28px;
+    align-content: center;
+    position: absolute;
+    box-shadow: 1px 1px 1px 1px rgb(99, 181, 75);
+    top:150px;
+    left:75px;
+}
+
+.q-2{
+    background-color:  rgb(170, 247, 193);
+    box-sizing: content-box;
+ font-size: 28px;
+    align-content: center;
+    position: absolute;
+    box-shadow: 1px 1px 1px 1px rgb(82, 202, 132);
+    top:425px;
+    left:575px;
+}
+
+.answer-1{
+font-size: 24px;
+position: relative;
+top:100px;
+left:100px;
+background-color: rgb(204, 249, 180);
+width:800px;
+padding:10px;
+box-sizing:content-box;
+box-shadow: 1px 1px 1px 1px rgb(99, 181, 75);
+
+
+}
+
+.answer-2{
+font-size: 24px;
+position: relative;
+top:240px;
+width:800px;
+padding:10px;
+left:600px;
+background-color: rgb(164, 239, 154);
+box-sizing:content-box;
+box-shadow: 1px 1px 1px 1px rgb(99, 181, 75);
+}
+
+
+.title-2{
+
+    text-align: center;
+    font-size: 50px;
+    width:1505px;
+    height: 50px;
+    background-color: lightblue;
+    box-sizing: content-box;
+ 
+    align-content: center;
+    position: relative;
+    box-shadow: 1px 1px 1px 1px rgb(97, 132, 237);
+
+
+    top:350px;
+
+}
+
+
+.dogs{
+    background-image: url(../images/dogs.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    border-radius: 10%;
+
+    width:400px;
+    height: 400px;
+    top:115px;
+    left:1000px;
+}
+
+.gif{
+background-image: url(../images/gif.gif);
+background-size: 100%;
+background-repeat: no-repeat;
+position: absolute;
+
+width: 400px;
+height: 400px;
+top:380px;
+
+
+
+}
+
+
+
+.green-2{
+
+background-image: url(../images/paw.png);
+background-size: 50%;
+position: absolute;
+background-repeat: no-repeat;
+width:200px;
+height:200px;
+top:350px;
+left:50px;
+rotate:-25deg;
+}
+
+.blue-2{
+    background-image: url(../images/bluepaw-2.png);
+    background-size: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    width:200px;
+    height:200px;
+top:500px;
+left:350px;
+
+
+}
+
+
+.how-to{
+font-size: 20px;
+position: absolute;
+align-content: center;
+top:900px;
+left:325px;
+text-indent: 40px;
+padding:25px;
+line-height: 40px;
+width:800px;
+background-color: rgb(186, 250, 196);
+box-shadow:10px 10px 10px rgb(82, 202, 132) ;
+box-sizing: content-box;
+
+
+}
+
+.sources{
+
+    position:absolute;
+    text-align: center;
+    text-indent: 40px;
+    padding:25px;
+    line-height: 40px;
+    width:800px;
+    background-color: rgb(182, 243, 254);
+    box-shadow:10px 10px 10px rgb(101, 208, 238) ;
+    box-sizing: content-box;
+    
+    top:2500px;
+    left: 325px;
+    }
+
+.puppyeyes{
+background-image: url(../images/puppyeyes.png);
+background-size: 100%;
+position: absolute;
+background-repeat: no-repeat;
+width:200px;
+height:200px;
+top:2300px;
+left:675px;
+
+
+}
+
+.Blacklab{
+
+    background-image: url(../images/Blacklab.png);
+    background-size: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    width:200px;
+    height:400px;
+    top:1400px;
+    left:45px;
+
+
+}
+
+.redcollar{
+
+    background-image: url(../images/redcollar.png);
+    background-size: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    width:200px;
+    height:400px;
+    top:645px;
+    left:1200px;
+
+
+
+}
+.dalmation{
+background-image: url(../images/dalmatian.png);
+background-size: 100%;
+position: absolute;
+background-repeat: no-repeat;
+width:200px;
+height:400px;
+top:1600px;
+left:1250px;
+
+}
+
+.shadow-dance-text {
+    font-size: 150px;
+    color: #000000;
+    align-content: center;
+    position: absolute;
+    top:2050px;
+    left:75px;
+    text-shadow: 5px 5px 0 #1ac969, 10px 10px 0 #0c4dbe;
+    animation: shadow-dance 2s infinite;
+}
+
+@keyframes shadow-dance {
+    0%, 100% {
+        text-shadow: 5px 5px 0 #1ac969, 10px 10px 0 #0c4dbe;
+    }
+    50% {
+        text-shadow: -5px -5px 0 #0c4dbe, -10px -10px 0 #1ac969;
+    }
+}
